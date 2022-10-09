@@ -4,7 +4,9 @@
   <artifactId>SkillraryEcommerceProject</artifactId>
   <version>0.0.1-SNAPSHOT</version> 
   
-  
+  <properties>
+  <java.version>17</java.version>
+  </properties>
  
   
   <dependencies>
@@ -48,7 +50,7 @@
         <version>3.0.0-M7</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>src/test/resources/TestNgSuit.xml</suiteXmlFile>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
